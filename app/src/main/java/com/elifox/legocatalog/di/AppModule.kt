@@ -1,6 +1,7 @@
 package com.elifox.legocatalog.di
 
 import android.app.Application
+
 import com.elifox.legocatalog.BuildConfig
 import com.elifox.legocatalog.api.AuthInterceptor
 import com.elifox.legocatalog.api.LegoService
