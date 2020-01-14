@@ -1,4 +1,4 @@
-package com.elifox.legocatalog.di
+package com.elifox.legocatalog.di.extensions
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

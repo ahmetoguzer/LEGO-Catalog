@@ -1,7 +1,9 @@
-package com.elifox.legocatalog.di
+package com.elifox.legocatalog.di.component
 
 import android.app.Application
 import com.elifox.legocatalog.App
+import com.elifox.legocatalog.di.module.AppModule
+import com.elifox.legocatalog.di.module.MainActivityModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule

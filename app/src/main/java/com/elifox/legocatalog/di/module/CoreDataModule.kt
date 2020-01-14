@@ -1,4 +1,4 @@
-package com.elifox.legocatalog.di
+package com.elifox.legocatalog.di.module
 
 import com.elifox.legocatalog.BuildConfig
 import com.facebook.stetho.okhttp3.StethoInterceptor

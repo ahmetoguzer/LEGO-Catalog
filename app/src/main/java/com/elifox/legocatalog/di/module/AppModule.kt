@@ -1,4 +1,4 @@
-package com.elifox.legocatalog.di
+package com.elifox.legocatalog.di.module
 
 import android.app.Application
 
@@ -6,6 +6,8 @@ import com.elifox.legocatalog.BuildConfig
 import com.elifox.legocatalog.api.AuthInterceptor
 import com.elifox.legocatalog.api.LegoService
 import com.elifox.legocatalog.data.AppDatabase
+import com.elifox.legocatalog.di.extensions.CoroutineScropeIO
+import com.elifox.legocatalog.di.extensions.LegoAPI
 import com.elifox.legocatalog.legoset.data.LegoSetRemoteDataSource
 import com.elifox.legocatalog.legotheme.data.LegoThemeRemoteDataSource
 import dagger.Module
@@ -23,7 +25,7 @@ class AppModule {
     @Singleton
     @Provides
     fun provideLegoService(@LegoAPI okhttpClient: OkHttpClient,
-            converterFactory: GsonConverterFactory
+                           converterFactory: GsonConverterFactory
     ) = provideService(okhttpClient, converterFactory, LegoService::class.java)
 
     @Singleton

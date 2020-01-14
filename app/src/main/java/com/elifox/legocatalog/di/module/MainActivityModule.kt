@@ -1,4 +1,4 @@
-package com.elifox.legocatalog.di
+package com.elifox.legocatalog.di.module
 
 import com.elifox.legocatalog.MainActivity
 

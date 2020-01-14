@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.elifox.legocatalog.R
 import com.elifox.legocatalog.databinding.FragmentLegosetsBinding
-import com.elifox.legocatalog.di.Injectable
-import com.elifox.legocatalog.di.injectViewModel
+import com.elifox.legocatalog.di.injector.Injectable
+import com.elifox.legocatalog.di.extensions.injectViewModel
 import com.elifox.legocatalog.ui.GridSpacingItemDecoration
 import com.elifox.legocatalog.ui.VerticalItemDecoration
 import com.elifox.legocatalog.ui.hide

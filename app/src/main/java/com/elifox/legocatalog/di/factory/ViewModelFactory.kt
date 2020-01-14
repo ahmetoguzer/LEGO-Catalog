@@ -1,4 +1,4 @@
-package com.elifox.legocatalog.di
+package com.elifox.legocatalog.di.factory
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

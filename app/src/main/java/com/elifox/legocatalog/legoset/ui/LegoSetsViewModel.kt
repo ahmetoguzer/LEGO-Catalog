@@ -1,7 +1,7 @@
 package com.elifox.legocatalog.legoset.ui
 
 import androidx.lifecycle.ViewModel
-import com.elifox.legocatalog.di.CoroutineScropeIO
+import com.elifox.legocatalog.di.extensions.CoroutineScropeIO
 import com.elifox.legocatalog.legoset.data.LegoSetRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.cancel

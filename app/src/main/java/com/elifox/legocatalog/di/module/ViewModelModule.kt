@@ -1,7 +1,9 @@
-package com.elifox.legocatalog.di
+package com.elifox.legocatalog.di.module
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.elifox.legocatalog.di.factory.ViewModelFactory
+import com.elifox.legocatalog.di.factory.ViewModelKey
 import com.elifox.legocatalog.legoset.ui.LegoSetViewModel
 import com.elifox.legocatalog.legoset.ui.LegoSetsViewModel
 import com.elifox.legocatalog.legotheme.ui.LegoThemeViewModel

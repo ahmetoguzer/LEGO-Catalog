@@ -1,4 +1,4 @@
-package com.elifox.legocatalog.di
+package com.elifox.legocatalog.di.extensions
 
 import javax.inject.Qualifier
 

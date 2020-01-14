@@ -10,8 +10,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.elifox.legocatalog.R
 import com.elifox.legocatalog.data.Result
 import com.elifox.legocatalog.databinding.FragmentThemesBinding
-import com.elifox.legocatalog.di.Injectable
-import com.elifox.legocatalog.di.injectViewModel
+import com.elifox.legocatalog.di.injector.Injectable
+import com.elifox.legocatalog.di.extensions.injectViewModel
 import com.elifox.legocatalog.ui.VerticalItemDecoration
 import com.elifox.legocatalog.ui.hide
 import com.elifox.legocatalog.ui.show
